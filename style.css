@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mingzat', sans-serif;
+}
+
+.benar_section{
+     
+    background: url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.benar{
+    background: rgba(0, 0, 0, 0.50);
+    height:100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.benar_text{
+    width: 60%;
+    color: #fff;
+    text-align: center;
+}
+.benar_text h1{
+    font-size: 80px;
+    line-height: 140%;
+}
+.benar_text p{
+font-size: 22px;
+line-height: 200%;
+}
+
+.link_button{
+    text-decoration: none;
+    padding: 11px 42px;
+    background-color: #e64f4f;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 20px;
+}
