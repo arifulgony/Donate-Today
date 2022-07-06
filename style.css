@@ -7,11 +7,9 @@ body{
 }
 
 .benar_section{
-     
-    background: url("images/donation1.jpg");
+    background: url("images/donation10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .benar{
@@ -49,19 +47,19 @@ line-height: 200%;
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 .cetagory{
     text-align: center;
     width: 80%;
 }
-.cetagory h1{
+.heading{
     font-size: 55px;
     font-weight: bold;
 }
-.cetagory p{
+.pragrap{
     font-size: 20px;
+    color: rgb(138, 138, 138);
 }
 
 .donate_amount{
@@ -75,11 +73,13 @@ line-height: 200%;
     color: rgb(85, 85, 85);
     margin: 15px;
     padding: 60px;
+    border-radius: 5%;
     background: rgb(250, 250, 250);
     box-shadow: rgba(0, 0, 0, 0.01) 0px 2px 4px 0px inset;
 }
 #money{
     color: #e64f4f;
+    border-radius: 5%;
     margin: 15px;
     padding: 60px;
     background: #ffdfdf;
@@ -98,22 +98,10 @@ line-height: 200%;
 }
 
 
-
-
 .donate_text{
     text-align: center;
 }
-.donate_text h1{
-    font-size: 55px;
-    font-weight: bold;
-    
 
-
-}
-.donate_text p{
-    font-size: 20px;
-   
-}
 .plan_box{
     display: flex;
     margin-left: 180px;
@@ -125,7 +113,9 @@ line-height: 200%;
     font-size: 18px;
     border-radius: 2%;
     padding: 80px 10px 0px 60px;
-
+}
+.plan p{
+    line-height: 25px;
 }
 
 .plan img{
@@ -133,7 +123,7 @@ line-height: 200%;
 }
 
 .plan1{
-    background-color:rgb(219, 251, 242);
+    background-color:#baffd1;
 }
 .plan2{
     background-color: #f7dede;
@@ -143,15 +133,36 @@ line-height: 200%;
 }
 
 
+.service_section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cetagory2{
+    text-align: center;
+    width: 80%;
+}
+
+
+.service_box{
+    display: flex;
+    margin-left: 200px;
+   margin-top: 30px; 
+}
+
+.service{
+    color: rgb(85, 85, 85);
+    margin: 15px;
+    width: 150px;
+    padding: 60px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
 
 .my_updates{
     text-align: center;
-}
-.my_updates h1{
-    font-size: 55px;
-}
-.my_updates p{
-    font-size: 20px;
 }
 
 .subscribe_form{
@@ -189,4 +200,3 @@ line-height: 200%;
 .fooder_text h1{
     font-size: 40px;
 }
-
